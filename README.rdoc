@@ -15,7 +15,7 @@ you can use
 But I often find myself with one-liners, with mutiple calls to params,
 that don't fit on a single line, and that bugs me.
 
-For example, this doesn't fit indented and without pparams in 80 columns:
+For example, this doesn't fit indented, without pparams, in 80 columns:
 
   user = User.new(:email => p[:email_new], :password => p[:password_new])
 
