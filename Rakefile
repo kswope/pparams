@@ -23,6 +23,7 @@ task :readme do
   system "rdoc README.rdoc"
 end
 
+task :test => :default
 task :default => :test_rails3x
 
 task :test_rails3x do |t|
